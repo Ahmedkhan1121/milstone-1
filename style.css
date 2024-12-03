@@ -1,0 +1,253 @@
+*{
+    padding: 0;
+    margin: 0; 
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+body{
+    background-color: #F0F1F5;
+    padding: 40px ;
+}
+/* color */
+/* #608abf   blue */
+/* #636466 text  */
+/* #bfc4c7  bg colour */
+
+
+/* parent section */
+.parent{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+
+}
+/* section-1 */
+
+.section-1{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color:#F5F6F7 ;
+    width:320px;
+    padding:20px ;
+    padding-bottom: 30px;
+    /* height: 80vh; */
+    
+}
+
+/* section-2 */
+.section-2{
+    display: flex; 
+    /* justify-content: center; */
+    /* align-items: center; */
+    flex-direction: column;
+    background-color:white ;
+    width: 580px;
+    padding: 30px 30px 10px 30px;
+    height: 160vh;
+    
+}
+/* 
+section-1 text */
+/* img */
+.profile-img img{
+    height: 170px;
+    width: 170px;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+/* name */
+.name h1{
+    /* width: 40px; */
+    text-align: center;
+    font-size: 2.5rem;
+    /* font-weight: 400; */
+    color: #608abf;
+    /* margin-top: 14px; */
+}
+
+/* Jobtitle */
+
+.jobTitle h2  {
+    color:#636466 ;
+    font-size: 25px;
+    font-weight: 100;
+    padding-top: 5px;
+}
+
+/* contact */
+.contact{
+    display: flex;
+    flex-direction: column;
+    /* margin-right:100PX ; */
+    margin-top: 30PX;
+    padding-right: 50PX;
+    padding-left: 60px;
+
+}
+
+
+.contact-detail-h2{
+    display: flex; 
+    align-items: center;
+    gap: 15px;
+    border-bottom: 2px solid #608abf;
+    padding-bottom: 10px;
+    width: 250px;
+    
+}
+.contact-detail{
+    display: flex;
+    gap: 10px;
+}
+.contact-detail p{
+    font-size: 13px;
+}
+.contact-list{
+    padding:30px 0px 10px 0 ;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+/* About */
+
+.About{
+    display: flex;
+    flex-direction: column;
+    /* margin-right:100PX ; */
+    margin-top: 30PX;
+    padding-right: 50PX;
+    padding-left: 60px;
+    gap: 12px;
+}
+.about-h2{
+    display: flex; 
+    align-items: center;
+    gap: 15px;
+    border-bottom: 2px solid #608abf;
+    padding-bottom: 10px;
+    width: 250px;
+}
+
+.about-p{
+    font-size: 14px;
+}
+
+.skill{
+    display: flex;
+    flex-direction: column;
+    /* margin-right:100PX ; */
+    margin-top: 30PX;
+    padding-right: 50PX;
+    padding-left: 60px;
+    gap: 12px;
+}
+
+.skill-h2{
+    display: flex; 
+    align-items: center;
+    gap: 15px;
+    border-bottom: 2px solid #608abf;
+    padding-bottom: 10px;
+    width: 250px;
+}
+
+.skill-list{
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    padding-left: 20px;
+    gap: 10px;
+}
+
+/* section2 */
+
+
+.education-heading{
+    display: flex;
+    align-items: center;
+    padding: 40px 5px 22px 20px;
+    border-bottom: 2px solid #608abf;
+    gap: 15px;
+}
+
+.education{
+    padding: 20px 10px 10px 40px;
+}
+.degree{
+    /* display: flex;
+    gap: 5px; */
+}
+.school{
+    display: flex; 
+    justify-content: space-between;
+    font-size: 14px;
+    
+}
+.school-period{
+    padding-right: 12px;
+    
+
+}
+.collage{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+
+    
+}
+.collage-period{
+
+    padding-right: 12px;
+}
+.university{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+
+}
+.university-period{
+    padding-right: 12px;
+}
+
+/* experience */
+
+.experience-heading{
+    display: flex;
+    align-items: center;
+    padding: 30px 0px 22px 20px;
+    border-bottom: 2px solid #608abf;
+    gap: 15px;
+}
+
+.experience{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 30px 20px 40px;
+    gap: 10px;
+    /* padding: 20px 10px 10px 40px; */
+
+}
+.Company-name{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.language-heading{
+    display: flex;
+    align-items: center;
+    padding: 30px 0px 22px 20px;
+    border-bottom: 2px solid #608abf;
+    gap: 15px;
+}
+.langauge-list{
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    padding-left: 20px;
+    padding-top: 10px;
+    gap: 10px;
+}
